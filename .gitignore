@@ -1,0 +1,73 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data: uploads, generated media, rendered videos, job records, caches
+data/
+uploads/
+outputs/
+renders/
+clips/
+assets/
+public/uploads/
+public/renders/
+public/assets/
+
+# Media files: source clips, character images, painted frames, renders and audio.
+# `app/icon.svg` is intentionally kept as the app icon.
+*.mp4
+*.mov
+*.m4v
+*.webm
+*.mkv
+*.avi
+*.wmv
+*.flv
+*.mpg
+*.mpeg
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.heic
+*.avif
+*.psd
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.opus
+
+# Model weights
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+# Logs and local test/browser artifacts
+*.log
+test-results/
+playwright-report/
+.playwright/
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
